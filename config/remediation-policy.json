@@ -1,0 +1,11 @@
+{
+  "allowed_extensions": [".java", ".py", ".js", ".jsx", ".ts", ".tsx", ".go", ".cs", ".rb", ".php"],
+  "excluded_path_prefixes": [".git/", "vendor/", "node_modules/", "dist/", "build/", "target/", ".venv/"],
+  "max_issues": 10,
+  "max_files": 5,
+  "max_source_chars": 12000,
+  "max_patch_bytes": 50000,
+  "allowed_ai_confidence": ["high"],
+  "deterministic_rules": {},
+  "note": "Add only reviewed, tested rule-key-to-fixer mappings. Empty by default."
+}
